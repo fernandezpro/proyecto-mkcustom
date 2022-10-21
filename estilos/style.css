@@ -1,0 +1,488 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+
+/* NORMALIZE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+}
+
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+p {
+    margin: 0;
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+}
+
+
+/* INICIO DE HEADER */
+
+header {
+    border-color: #81818142;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+
+.logo-header {
+    width: 17rem;
+}
+
+.direccion {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.nav-item {
+    text-align: center;
+    margin: 0 1em;
+}
+
+
+.nav-link {
+    padding: 0;
+    font-size: 2em;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+
+.nav-link:hover {
+    font-size: 22px;
+    color: #fbff0077;
+}
+
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: rgba(242, 253, 86, 0.705);
+    background-color: #ffffff;
+    border: var(--bs-border-width) solid rgb(232, 245, 158);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+
+.amarillo{
+    text-decoration: underline;
+    color: yellow;
+}
+
+/* FIN DE HEADER */
+
+/* CONTENIDO PRINCIPAL INDEX */
+
+.principal {
+    margin: 4rem 0rem;
+}
+
+.principal__contenedor {
+    padding: 0;
+    margin-bottom: 4rem;
+}
+
+.principal__h {
+    margin: 0;
+    margin-bottom: 2.2rem;
+}
+
+.principal__p {
+    line-height: 2.3em;
+}
+
+.contenedor-logo {
+    margin: 2rem 0rem;
+    padding: 0;
+}
+
+.logos {
+    display: flex;
+}
+
+
+.logos__li {
+    margin: 20px 0px;
+    padding: 0px 10px;
+}
+
+
+/* FIN CONTENIDO PRINCIPAL INDEX */
+
+/* INICIO DE FOOTER */
+
+footer {
+    padding: 0 1rem;
+}
+
+.logo-mk {
+    width: 12rem;
+}
+
+.redes {
+    text-align: center;
+    color: #dfdede;
+}
+
+.social {
+    display: flex;
+    
+}
+
+.bi {
+    padding: 0 0.8rem;
+    color: #dfdede;
+    font-size: 20px;
+}
+
+/* FIN DE FOOTER */
+
+/* INICIO DEL MAIN PIRMARIO DE CUSTOM */
+
+.custom {
+    text-align: center;
+    margin: 4rem 0rem;
+}
+
+.motivacional{
+    margin: 4rem 0rem;
+}
+
+.motivacional__h {
+    margin: 0;
+    margin-bottom: 2.2rem;
+}
+
+.motivacional__p {
+    line-height: 2.3em;
+}
+
+/* FIN INICIO DEL MAIN PIRMARIO DE CUSTOM */
+
+/* INICIO DEL MAIN SECUNDARIO DE CUSTOM */
+
+.marcadora {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.marcadora__tarjeta{
+    padding: 2rem 0rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.marcadora__tarjeta2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 2rem 0rem;
+    text-align: end;
+}
+
+
+.marcadora__img {
+    width: 300px;
+}
+
+.marcadora__texto {
+    border-color: #81818142;
+    border-width: 0px 2px 0px 0px;
+    border-style: solid;
+    padding: 0 2rem;
+    width: 200px;
+}
+
+
+.marcadora__texto2 {
+    border-color: #81818142;
+    border-width: 0px 0px 0px 2px;
+    border-style: solid;
+    padding: 0 2rem;
+    width: 200px;
+}
+
+
+/* FIN DEL MAIN SECUNDARIO DE CUSTOM */
+
+/* INICIO DE PRODUCTOS */
+
+.card{
+    display: inline-block;
+    overflow: hidden;
+    width: 24.7%;
+}
+
+.card__img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.card__tit{
+    text-shadow: 1px 1px 3px yellow;
+    font-size: 3.2rem;
+    color: #ffffff;
+}
+
+.card__text{
+    color: #ffffff;
+}
+
+/* FIN INICIO DE PRODUCTOS */
+
+/* INICIO DE GALERIA */
+
+
+
+.mike{
+    display: inline-block;
+    overflow: hidden;
+    width: 24.7%;
+}
+
+.mike__img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.video{
+    position: relative;
+    left: 600px;
+}
+
+/* FIN INICIO DE GALERIA */
+
+/* INICIO DE FORMULARIO */
+
+
+.fondo{
+    height: 1368px;
+    
+}
+
+.formulario{
+    position: relative;
+    width: 25vh;
+    bottom: 1280px;
+    left: 800px;
+    display: inline-block;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.text{
+    font-size: 2rem;
+    color: #ffffff;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.caja{
+    width: 100%;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 1.5rem;
+    background-color: #d6d5d5;
+
+}
+
+.btn{
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #d6d5d5;
+    cursor: pointer;
+    font-weight: bold
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1440px) { 
+    .bi {
+        padding: 0 0.8rem;
+        font-size: 15px;
+    }
+
+    .copyright {
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    .logos__li {
+        margin: 10px 0px;
+        padding: 0px 5px;
+    }
+
+    .marcadora__tarjeta{
+        padding: 2rem 0rem;
+        display: flex;
+        align-items: center;
+
+    
+    }
+    
+    .marcadora__tarjeta2{
+        padding: 2rem 0rem;
+        display: flex;
+        align-items: center;
+
+    
+    }
+
+    .marcadora__img {
+        width: 200px;
+    }
+
+    .marcadora__texto {
+        border-width: 0px;
+        padding: 0px;
+        width: 200px;
+        font-size: 1.2em;
+    }
+    
+
+    .marcadora__texto2 {
+        border-width: 0px;
+        padding: 0px;
+        width: 200px;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+    .logo-header {
+        width: 120px;
+    }
+    
+    .principal {
+        margin: 1.5rem 0rem;
+    }
+
+    .principal__contenedor {
+    padding: 0;
+    margin-bottom: 2.5rem;
+    }
+
+    .principal__p {
+        line-height: 1.5em;
+    }
+    
+    .contenedor-logo {
+        margin: 0rem 0rem;
+        padding: 0;
+    }
+
+    .logos__li {
+        width: 30px;
+        margin: 10px 0px;
+        padding: 0px 2px;
+    }
+    
+
+    .bi {
+        padding: 0 0.4rem;
+        font-size: 1.2em;
+    }
+
+    .copyright {
+        font-size: 1em;
+    }
+
+    .logo-mk {
+        width: 80px;
+    }
+
+
+    .marcadora {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+
+    .marcadora__tarjeta{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 200px;
+    }
+    
+    .marcadora__tarjeta2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 200px;
+    }
+
+    .marcadora__img {
+        width: 200px;
+    }
+
+    .marcadora__texto {
+        border-width: 0px;
+        padding: 0px;
+        width: 200px;
+        font-size: 0.8em;
+    }
+
+    .marcadora__texto2 {
+        border-width: 0px;
+        padding: 0px;
+        width: 200px;
+        font-size: 0.8em;
+    }
+
+}
+
