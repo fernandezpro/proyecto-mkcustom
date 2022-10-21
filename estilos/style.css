@@ -360,6 +360,10 @@ footer {
         padding: 0px 5px;
     }
 
+    .marcadora {
+        overflow: hidden;
+    }
+
     .marcadora__tarjeta{
         padding: 2rem 0rem;
         display: flex;
