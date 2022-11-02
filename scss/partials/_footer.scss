@@ -1,0 +1,44 @@
+/* INICIO DE FOOTER */
+
+footer {
+    padding: 0 1rem;
+
+    .footermk{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footermk__cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .redes {
+        text-align: center;
+        color: #dfdede;
+    }
+    
+    .bi {
+        padding: 0 0.8rem;
+        color: #dfdede;
+        font-size: 20px;
+    }
+    
+    .logo-mk {
+        width: 12rem;
+    }
+    
+    .social {
+        display: flex;
+    
+    }
+    
+    .copyright {
+        display: flex;
+        justify-content: center;
+    }
+}
+/* FIN DE FOOTER */

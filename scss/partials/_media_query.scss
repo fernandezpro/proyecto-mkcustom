@@ -1,0 +1,236 @@
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1440px) { 
+
+    footer{
+        
+        .bi {
+            padding: 0 0.8rem;
+            font-size: 1.5em;
+        }
+    
+        .copyright {
+            font-size: 1.2em;
+        }
+    
+    }
+    
+    .galcont {
+        overflow: hidden;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    
+    .principal{
+        
+        .contenedor-logo {
+            margin: 0px;
+        }
+
+        .logos__li {
+            margin: 10px 0px;
+            padding: 0px 5px;
+        }
+    }
+
+    .marcadora {
+        overflow: hidden;
+        
+        .marcadora__tarjeta{
+            padding: 2rem 0rem;
+            display: flex;
+            align-items: center;
+    
+        }
+        
+        .marcadora__tarjeta2{
+            padding: 2rem 0rem;
+            display: flex;
+            align-items: center;
+    
+        }
+    
+        .marcadora__img {
+            width: 200px;
+        }
+    
+        .marcadora__texto {
+            border-width: 0px;
+            padding: 0px;
+            width: 200px;
+            font-size: 1.2em;
+        }
+        
+        .marcadora__texto2 {
+            border-width: 0px;
+            padding: 0px;
+            width: 200px;
+            font-size: 1.2em;
+        }
+    }
+
+    
+    .galcont {
+        overflow: hidden;
+        padding-bottom: 1rem;
+
+        .galeria {
+            padding: 1rem 0rem;
+        }
+    
+        .galeria2 {
+            padding: 1rem 0rem;
+        }
+    
+        .video {
+            display: none;
+        }
+    }
+
+    footer {
+        padding: 0 0.5rem;
+
+        .bi {
+            padding: 0 1.5rem;
+            font-size: 1.8em;
+        }
+    
+        .copyright {
+            font-size: 1em;
+        }
+    
+        .logo-mk {
+            width: 100px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 576px){
+    
+    header {
+        .logo-header {
+        width: 120px;
+        }
+    }
+    
+    .principal {
+        margin: 1.5rem 0rem;
+
+        .principal__contenedor {
+        padding: 0;
+        margin-bottom: 2.5rem;
+        }
+    
+        .principal__p {
+            line-height: 1.5em;
+        }
+        
+        .contenedor-logo {
+            margin: 0rem 0rem;
+            padding: 0;
+        }
+        .logos {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logos__li {
+            width: 30px;
+            margin: 10px 0px;
+            padding: 0px 2px;
+        }
+        
+    }
+
+    footer {
+        padding: 0 0.5rem;
+
+        .bi {
+            padding: 0 1rem;
+            font-size: 1.4em;
+        }
+    
+        .copyright {
+            font-size: 0.8em;
+        }
+    
+        .logo-mk {
+            width: 80px;
+        }
+    }
+
+
+
+    .marcadora {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        .marcadora__tarjeta{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            width: 200px;
+        }
+        
+        .marcadora__tarjeta2{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            width: 200px;
+        }
+        .marcadora__img {
+            width: 200px;
+        }
+    
+        .marcadora__texto {
+            border-width: 0px;
+            padding: 0px;
+            width: 200px;
+            font-size: 0.8em;
+        }
+    
+        .marcadora__texto2 {
+            border-width: 0px;
+            padding: 0px;
+            width: 200px;
+            font-size: 0.8em;
+        }
+    }
+
+
+    .galcont {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-bottom: 1rem;
+
+        .galeria {
+            width: 250px;
+            padding: 1rem 0rem;
+        }
+
+        .galeria2 {
+            width: 250px;
+            padding: 0rem;
+        }
+
+        .galeria__img{
+            margin: 0;
+        }
+
+        .video {
+            display: none;
+        }
+    }   
+}

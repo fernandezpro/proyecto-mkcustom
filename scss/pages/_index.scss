@@ -1,0 +1,42 @@
+/* CONTENIDO PRINCIPAL INDEX */
+
+.principal {
+    margin: 4rem 0rem;
+
+    .principal__contenedor {
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+    .principal__h {
+        margin: 0;
+        margin-bottom: 2.2rem;
+    }        
+    .principal__p {
+        line-height: 2.3em;
+    }
+
+    .principal__contenedor {
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+
+    .principal__h {
+        margin: 0;
+        margin-bottom: 2.2rem;
+    }
+    
+    .contenedor-logo {
+        margin: 2rem 0rem;
+        padding: 0;
+    }
+
+    .logos {
+        display: flex;
+    }
+
+    .logos__li {
+        margin: 20px 0px;
+        padding: 0px 10px;
+    }
+}
+/* FIN CONTENIDO PRINCIPAL INDEX */

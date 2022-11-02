@@ -1,0 +1,59 @@
+
+.custom {
+    text-align: center;
+    margin: 4rem 0rem;
+
+    .motivacional{
+        margin: 4rem 0rem;
+    }
+
+    .motivacional__h {
+        margin: 0;
+        margin-bottom: 2.2rem;
+    }
+    
+    .motivacional__p {
+        line-height: 2.3em;
+    }
+
+}
+
+.marcadora {
+    display: flex;
+    flex-direction: column;
+
+    .marcadora__tarjeta {
+        padding: 2rem 0rem;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .marcadora__tarjeta2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 2rem 0rem;
+        text-align: end;
+    }
+
+    .marcadora__img {
+        width: 300px;
+    }
+
+    .marcadora__texto {
+        border-color: #81818142;
+        border-width: 0px 2px 0px 0px;
+        border-style: solid;
+        padding: 0 2rem;
+        width: 200px;
+    }
+
+    .marcadora__texto2 {
+        border-color: #81818142;
+        border-width: 0px 0px 0px 2px;
+        border-style: solid;
+        padding: 0 2rem;
+        width: 200px;
+    }
+}

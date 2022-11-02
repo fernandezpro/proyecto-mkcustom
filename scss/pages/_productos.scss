@@ -1,0 +1,54 @@
+
+.imgprin {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+
+    .imgprin__car {
+        width: 80rem;
+    }
+
+
+}
+
+.titulo {
+    background-color: rgba(255, 255, 255, 0.062);
+    margin-top: 1.5rem;
+    padding: 1rem 00rem;
+    border-radius: 0.4rem;
+
+    .titulo__contenedor {
+        display: fleX;
+        justify-content: center;
+    }
+
+}
+
+.productos__li {
+    padding: 1.3rem 0rem;
+    display: flex;
+    justify-content: center;
+    height: 440px;
+
+    .productos__tar {
+        background-color: rgba(255, 255, 255, 0.062);
+        padding: 20px 16px 10px 16px;
+        line-height: normal;
+    }
+
+    .productos__img {
+        padding: 8px 0px;
+        overflow: visible;
+    }
+    
+    .card-img-top {
+        height: 180px;
+    }
+    
+    .productos__text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}

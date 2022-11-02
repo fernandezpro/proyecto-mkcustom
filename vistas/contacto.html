@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="../img/home/favicom.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../estilos/bootstrap.css">
-    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/translated.css">
 </head>
 
 <body>
@@ -48,26 +48,19 @@
 
 <!-- Formulario -->
     <main class="container"> 
-        <figure class="fondo">
-            <img src="../img/contacto/mike.jpg" alt="">
-        </figure>
         <form class="formulario" action="" method="get" enctype="text/plain">
             <div>
                 <label class="text" for="name">Nombre</label>
-                <br>
                 <input class="caja" type="text" name="name" id="name" required>
             </div>
             <div>
                 <label class="text" for="surname">Apellido</label>
-                <br>
                 <input class="caja" type="text" name="surname" id="surname" required>
             </div>
             <div>
                 <label class="text" for="phone">Telefono</label>
-                <br>
                 <input class="caja" type="tel" name="phone" id="phone">
             </div>
-            <br>
             <div>
                 <textarea class="caja" name="bio" id="bio" minlength="10" maxlength="160" placeholder="Ingrese una breve descripción"></textarea>
             </div>
@@ -77,24 +70,28 @@
 <!-- Formulario -->
 
 <!-- Footer -->
-<footer class="bg-dark d-flex flex-row-reverse justify-content-between align-items-center ">
-    <div>
-        <a>
-            <img class="img-fluid logo-mk" src="../img/home/mike_dmr.png" alt="logo mike">
-        </a>
-    </div>
-    <div class="footerContainer">
-        <p class="copyright">© By Fernandezpro 2022</p>
-    </div>
-    <div>
-        <h2 class="redes">Social</h2>
-        <ul class="social">
-            <li><a class="icono" href="http://wa.me/+5491134561601?text=Hola%20quiero%20infromación" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
-            <li><a class="icono" href="https://www.facebook.com/MKDMRcustom/" target="_blank"><i class="bi bi-facebook"></i></a></li>
-            <li><a class="icono" href="https://www.instagram.com/_mkcustom_/" target="_blank"><i class="bi bi-instagram"></i></a></li>
-            <li><a class="icono" href="https://www.youtube.com/c/MKDMR/featured" target="_blank"><i class="bi bi-youtube"></i></a></li>
-        </ul>
-    </div>
+<footer class="bg-dark">
+    <section class="footermk">
+        <div class="footermk__cont">
+            <h2 class="redes">Social</h2>
+            <ul class="social">
+                <li>
+                    <a class="icono" href="http://wa.me/+5491134561601?text=Hola%20quiero%20infromación" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                </li>
+                <li><a class="icono" href="https://www.facebook.com/MKDMRcustom/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                <li><a class="icono" href="https://www.instagram.com/_mkcustom_/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                <li><a class="icono" href="https://www.youtube.com/c/MKDMR/featured" target="_blank"><i class="bi bi-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div>
+            <a>
+                <img class="img-fluid logo-mk" src="../img/home/mike_dmr.png" alt="logo mike">
+            </a>
+        </div>
+    </section>
+    <section class="copyright">
+        <p>© By Mk-Custom 2022</p>
+    </section>
 </footer>
 <!-- Fin Footer -->
 <script src="../js/bootstrap.bundle.js"></script>

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+}
+
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+p {
+    margin: 0;
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+}

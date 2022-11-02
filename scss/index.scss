@@ -1,0 +1,25 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+
+/* MISC */
+
+@import "./misc/variables";
+@import "./misc/normalize";
+
+
+/* PAGES */
+
+@import "./pages/index";
+@import "./pages/custom";
+@import "./pages/productos";
+@import "./pages/galeria";
+@import "./pages/contacto";
+
+/* PARTIALS */
+
+@import "./partials/navbar";
+@import "./partials/footer";
+@import "./partials/media_query";
+
+
