@@ -11,7 +11,7 @@
         }
     
         .copyright {
-            font-size: 1.2em;
+            font-size: 0.8em;
         }
     
     }
@@ -19,6 +19,17 @@
     .galcont {
         overflow: hidden;
         padding-bottom: 1rem;
+    }
+
+    .direccion2 {
+        &__cont {
+            height: 200px;
+        }
+        
+        &__mapa{
+            width: 960px;
+            height: 200px;
+        }
     }
 }
 
@@ -31,7 +42,11 @@
         }
 
         .logos__li {
-            margin: 10px 0px;
+            margin-top: 15px;
+            padding: 0px 5px;
+        }
+        .logos__li2 {
+            margin-top: 15px;
             padding: 0px 5px;
         }
     }
@@ -98,13 +113,28 @@
             font-size: 1.8em;
         }
     
-        .copyright {
-            font-size: 1em;
-        }
-    
+        
         .logo-mk {
             width: 100px;
         }
+        .copyright {
+            font-size: 0.8em;
+        }
+    }
+    .direccion2 {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    
+        &__cont {
+            height: 200px;
+        }
+        
+        &__mapa{
+            width: 704px;
+            height: 200px;
+        }
+        
     }
 
 }
@@ -133,18 +163,26 @@
         .contenedor-logo {
             margin: 0rem 0rem;
             padding: 0;
-        }
-        .logos {
-            display: flex;
-            justify-content: space-around;
+            .logos {
+                display: flex;
+                justify-content: space-evenly;
+                .logos__li {
+                    width: 35px;
+                    margin: 5px 0px;
+                    padding: 0px;
+                }
+            }
+            .logos2 {
+                display: flex;
+                justify-content: space-evenly;
+                .logos__li2 {
+                    width: 35px;
+                    margin: 5px 0px;
+                    padding: 0px;
+                }
+            }
         }
 
-        .logos__li {
-            width: 30px;
-            margin: 10px 0px;
-            padding: 0px 2px;
-        }
-        
     }
 
     footer {
@@ -154,13 +192,13 @@
             padding: 0 1rem;
             font-size: 1.4em;
         }
-    
-        .copyright {
-            font-size: 0.8em;
-        }
-    
+        
+        
         .logo-mk {
             width: 80px;
+        }
+        .copyright {
+            font-size: 0.6em;
         }
     }
 
@@ -232,5 +270,67 @@
         .video {
             display: none;
         }
-    }   
+    }
+    
+    .conten {
+        margin: 3rem 0rem;
+        .formulario {
+            width: 360px;
+            height: 450px;
+        }
+        .formulario__caja {
+            width: 330px;
+        }
+        .formulario__caja2 {
+            width: 330px;
+        }
+    }
+    
+    .direccion2 {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    
+        &__cont {
+            width: 390px;
+            height: 150px;
+        }
+        
+        &__mapa{
+            width: 390px;
+            height: 150px;
+        }
+    }    
+}
+
+@media screen and (max-width: 330px) {
+    .conten {
+        margin: 3rem 0rem;
+        .formulario {
+            width: 305px;
+            height: 400px;
+        }
+        .formulario__caja {
+            width: 280px;
+        }
+        .formulario__caja2 {
+            width: 280px;
+        }
+    }
+    
+    .direccion2 {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    
+        &__cont {
+            width: 320px;
+            height: 150px;
+        }
+        
+        &__mapa{
+            width: 320px;
+            height: 150px;
+        }
+    }    
 }

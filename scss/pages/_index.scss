@@ -3,26 +3,27 @@
 .principal {
     margin: 4rem 0rem;
 
-    .principal__contenedor {
+    &__contenedor {
         padding: 0;
         margin-bottom: 4rem;
     }
-    .principal__h {
+    &__h {
         margin: 0;
         margin-bottom: 2.2rem;
     }        
-    .principal__p {
+    &__p {
         line-height: 2.3em;
     }
+    
+    .secundario {
 
-    .principal__contenedor {
-        padding: 0;
-        margin-bottom: 4rem;
-    }
+        &__h2 {
+            margin-bottom: 2.2rem;
+        }
 
-    .principal__h {
-        margin: 0;
-        margin-bottom: 2.2rem;
+        &__h3 {
+            margin: 0rem;
+        }
     }
     
     .contenedor-logo {
@@ -35,8 +36,14 @@
     }
 
     .logos__li {
-        margin: 20px 0px;
-        padding: 0px 10px;
+        padding: 0px 5px;
+    }
+    .logos2 {
+        display: flex;
+    }
+
+    .logos__li2 {
+        padding: 0px 5px;
     }
 }
 /* FIN CONTENIDO PRINCIPAL INDEX */

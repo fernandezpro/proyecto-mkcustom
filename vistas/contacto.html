@@ -48,24 +48,32 @@
 
 <!-- Formulario -->
     <main class="container"> 
-        <form class="formulario" action="" method="get" enctype="text/plain">
-            <div>
-                <label class="text" for="name">Nombre</label>
-                <input class="caja" type="text" name="name" id="name" required>
+        <section class="conten">
+            <div class="consulta">
+                <h2>Por cualquier duda o consulta</h2>
+                <h3>Respondemos a la brevedad</h3>
             </div>
-            <div>
-                <label class="text" for="surname">Apellido</label>
-                <input class="caja" type="text" name="surname" id="surname" required>
+            <form class="formulario" action="" method="get" enctype="text/plain">
+                <div class="formulario__cont">
+                    <input class="formulario__caja" type="text" name="name" id="name" required placeholder="Ingrese su nombre">
+                </div>
+                <div class="formulario__cont">
+                    <input class="formulario__caja" type="text" name="surname" id="surname" required placeholder="Ingrese su apellido">
+                </div>
+                <div class="formulario__cont">
+                    <input class="formulario__caja" type="tel" name="phone" id="phone" required placeholder="N° celular">
+                </div>
+                <div class="formulario__cont">
+                    <textarea class="formulario__caja2" name="bio" id="bio" minlength="10" maxlength="160" placeholder="Ingrese una breve descripción"></textarea>
+                </div class="formulario__cont">
+                <input class="btn" type="submit" name="enviar">
+            </form>
+        </section>
+        <section class="direccion2">
+            <div class="direccion2__cont">
+                <iframe class="direccion2__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13134.763126126329!2d-58.56486042748357!3d-34.611979900778884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb81906623175%3A0xdac3b60d828644d6!2sAv.%20San%20Mart%C3%ADn%203221%2C%20B1678GQI%20Caseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1667479470142!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
-                <label class="text" for="phone">Telefono</label>
-                <input class="caja" type="tel" name="phone" id="phone">
-            </div>
-            <div>
-                <textarea class="caja" name="bio" id="bio" minlength="10" maxlength="160" placeholder="Ingrese una breve descripción"></textarea>
-            </div>
-            <input class="btn" type="submit" name="enviar">
-        </form>
+        </section>
     </main>
 <!-- Formulario -->
 
