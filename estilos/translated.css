@@ -35,10 +35,10 @@ img {
 /* PAGES */
 /* CONTENIDO PRINCIPAL INDEX */
 .principal {
-  margin: 4rem 0rem; }
+  margin: 9rem 0rem; }
   .principal__contenedor {
-    padding: 0;
-    margin-bottom: 4rem; }
+    padding: 1;
+    margin-bottom: 6rem; }
   .principal__h {
     margin: 0;
     margin-bottom: 2.2rem; }
@@ -129,6 +129,7 @@ img {
     padding: 8px 0px;
     overflow: visible; }
   .productos__li .card-img-top {
+    object-fit: cover;
     height: 180px; }
   .productos__li .productos__text {
     display: flex;
